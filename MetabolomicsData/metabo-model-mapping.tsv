@@ -1,0 +1,106 @@
+METABOLITE	MODEL
+Pyruvate (87.0 / 43.0)	pyr_c
+lactate (89.0 / 43.0)	lac_L_c
+Oxalacetate (131.0 / 113.0)	oaa_c
+PEP (167.0 / 79.0)	pep_c
+DHAP (167.0 / 79.0 (2))	dhap_c
+D-GA3P (167.0 / 97.0)	
+Glucose (179.0 / 89.0)	glc_aD_c
+G1P/G6P/F6P/F1P (259.0 / 97.0)	g6p_A_c
+3HBA (103.0 / 59.0)	
+Maleic Acid (115.0 / 71.0 (2))	
+Succinate (117.0 / 73.0)	succ_c
+Malate (133.0 / 115.0)	mal_L_c
+Aconitate (173.0 / 85.0)	acon_C_c
+Glycine (76.0 / 30.1)	gly_c
+Alanine (90.0 / 44.0 (2))	ala_L_c
+Cadaverine (103.0 / 86.0)	
+Serine (106.0 / 60.0 (2))	ser_L_c
+Proline (116.0 / 70.0)	pro_L_c
+Valine (118.0 / 72.0)	val_L_c
+Threonine (120.0 / 74.0 (2))	thr_L_c
+Leucine (132.0 / 86.0)	leu_L_c
+iso-Leucine (132.0 / 86.0 (2))	ile_L_c
+Asparagine (133.0 / 74.0)	asn_L_c
+Tyramine (138.0 / 121.0)	tym_c
+Glutamine (147.0 / 84.0)	gln_L_c
+Lysine (147.0 / 84.0 (2))	lys_L_c
+Glutamic acid (148.0 / 84.0)	glu_L_c
+Methionine (150.0 / 61.0)	met_L_c
+Histidine (156.0 / 110.0)	his_L_c
+Phenylalanine (166.0 / 120.0)	phe_L_c
+1/3-Methylhistidine (170.0 / 96.0)	
+Arginine (175.0 / 70.0)	arg_L_c
+Tyrosine (182.1 / 136.0)	tyr_L_c
+Cystine (241.1 / 120.0)	
+2-Hydroxyisovaleric Acid (117.0 / 71.0)	
+3-Methyl-2-Oxovaleric Acid (129.0 / 101.0)	
+Aminoisobutyrate (104.0 / 86.0)	
+Betaine (118.0 / 58.0)	glyb_c
+Homoserine (120.0 / 74.0)	
+Creatine (132.0 / 90.0)	
+Aspartic Acid (134.0 / 74.0)	asp_L_c
+Carnitine (162.0 / 85.0)	crn_c
+Quinolinic Acid (168.0 / 150.0)	quln_c
+Glycerate (105.0 / 75.0)	glyc_R_c
+N-AcetylGlycine (116.0 / 74.0)	
+Citraconic Acid (129.0 / 85.0)	
+D-Leucic Acid (131.0 / 85.0)	
+Glutaric Acid (131.0 / 87.0)	
+2-Hydroxyglutarate (147.0 / 129.0)	2hglut_c
+2-Aminoadipate (160.0 / 116.0)	L2aadp_c
+Pentothenate (218.1 / 88.0)	
+Cystathionine (221.1 / 134.0)	cyst_L_c
+Tryptophan (205.1 / 146.0)	trp_L_c
+L-Kynurenine (209.1 / 94.0)	Lkynr_c
+Kynurenic Acid (188.0 / 144.0)	kynate_c
+Xanthurenic Acid (204.1 / 160.0)	xanate_c
+Cytidine (244.2 / 112.1)	cytd_c
+Uridine (245.2 / 113.1)	uri_c
+Adenosine (268.2 / 136.1)	adn_c
+Inosine (269.2 / 137.1)	ins_c
+1-Methyladenosine (282.2 / 150.1)	
+Guanosine (284.2 / 152.1)	gsn_c
+8-Oxo-2'-deoxyguanosine (284.2 / 168.1)	
+GMP (364.1 / 152.0)	gmp_c
+Uracil (111.0 / 42.0)	ura_c
+Adenine (134.0 / 107.0)	ade_c
+Hypoxanthine (135.0 / 92.0)	hxan_c
+Xanthine (151.0 / 108.0)	xan_c
+Allantoin (157.0 / 114.0)	
+Urate (167.0 / 124.0)	urate_c
+Xanthosine (283.1 / 151.0)	xtsn_c
+CMP (322.0 / 97.0)	cmp_c
+cGMP (344.0 / 150.0)	35cgmp_c
+AMP (346.1 / 79.0)	amp_c
+IMP (347.1 / 79.0)	imp_c
+PRPP (389.0 / 79.0)	prpp_c
+Choline (104.0 / 60.0)	chol_c
+4-Pyridoxic acid (182.1 / 138.0)	
+4-Hydroxybutyrate (105.0 / 77.0)	
+Glycerol-3-P (171.0 / 79.0)	glyc3p_c
+13-HODE (295.1 / 195.0)	
+Arachidonate (303.3 / 59.0)	arachd_c
+12-HETE (319.2 / 179.0)	
+Acetylcarnitine (204.1 / 85.0)	acrn_c
+Azelaic Acid (187.0 / 125.0)	
+Margaric Acid (269.1 / 251.3)	
+Linolenic Acid (277.1 / 259.0)	
+Linoleic Acid (279.1 / 261.0)	lnlc_c
+Glyceraldehyde (89.0 / 59.0)	glyald_c
+Inositol (179.0 / 87.0)	inost_c
+Sorbitol (181.0 / 89.0)	sorbitol_c
+Glucoronate (193.0 / 73.0)	
+Lactose (341.0 / 59.0)	lcts_c
+UDP-GlcNAc (606.0 / 385.0)	uacgam_c
+Ornithine (133.0 / 70.0)	orn_c
+Citrulline (174.0 / 131.0)	citr_L_c
+Benzoic acid (121.0 / 77.0)	
+Reduced glutathione (306.3 / 143.1)	gthrd_c
+Oxidized glutathione (611.2 / 306.0)	gthox_c
+Acetoacetate (101.0 / 57.0)	acac_c
+Putrescine (89.0 / 72.0)	ptrc_c
+Agmatine (131.0 / 72.0)	
+N-Acetylputrescine (131.0 / 114.0)	aprut_c
+Spermidine (146.0 / 72.0)	spmd_c
+Ribose-5-P (229.0 / 79.0)	r5p_c
