@@ -1,0 +1,4 @@
+!!SBtab SbtabVersion='1.0' TableType='Compartment' TableName='WormJam compartments'
+!ID	!Name	!Identifiers:go	!Comment
+c	c	Cytosol	GO:0005829	
+m	m	Mitochondrion	GO:0005739	
