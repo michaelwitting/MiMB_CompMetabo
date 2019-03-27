@@ -1,0 +1,14 @@
+!!SBtab SBtabVersion="1.0" TableType="Pathway" TableName="WormJam pathways"
+!Name	!Identifiers:GO_process	!Identifiers:kegg:pathway	!Identifiers:BioCyc	!Identifiers:pw	!Comment	!Curator
+glycolysis and gluconeogenesis	glycolysis and gluconeogenesis	GO:0061621; GO:0006094	map00010		PW:0000025	checked	lenov																			
+sucrose degradation	sucrose degradation	GO:0005987	map00500		PW:0000151	checked	lenov																			
+pyruvate metabolism	pyruvate metabolism	GO:0006090	map00620		PW:0000043	checked	lenov																			
+tca cycle	tca cycle	GO:0006099	map00020		PW:0000026																					
+methylglyoxal degradation	methylglyoxal degradation	GO:0051596				[CHECKME] consider merging with pyruvate metabolism	lenov																			
+trehalose degradation	trehalose degradation	GO:0005993			PW:0001300	checked	lenov																			
+pentose phosphate pathway	pentose phosphate pathway	GO:0019321	map00030		PW:0000045	checked	lenov																			
+glyoxylate and dicarboxylate metabolism	glyoxylate and dicarboxylate metabolism	GO:0006097	map00630		PW:0000063	checked	lenov																			
+amino sugar and nucleotide sugar metabolism	amino sugar and nucleotide sugar metabolism		map00520		PW:0000152; PW:0000055	checked. This is a compound pathway. Consider splitting it between amino sugar and nucleotide sugar (as in Pathway ontology)	lenov																			
+alanine, aspartate and glutamate metabolism	alanine, aspartate and glutamate metabolism	GO:0006522; GO:0006531; GO:0006536	map00250		PW:0000028	checked	lenov																			
+glycine, serine and threonine metabolism	glycine, serine and threonine metabolism	GO:0006544; GO:0006563; GO:0006566	map00260		PW:0000047	checked	lenov																			
+exchange reactions	exchange reactions					checked. NB: there are lots of inconsistencies there. Sometimes exchange reaction, sometime "transport X"	lenov																		

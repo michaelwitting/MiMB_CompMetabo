@@ -1,3 +1,4 @@
+!!SBtab SbtabVersion='1.0' TableType='Gene' TableName='C elegans genes'
 !ID	!Identifiers:WormBase	!Symbol	!Locus	!Name	!GO_process	!GO_function	!GO_component	!Identifiers:ec-code	!Comment	!Curator
 WBGene00015270	WBGene00015270		C01B4.6	C01B4.6	GO:0005975;GO:0019318	GO:0003824;GO:0016853;GO:0030246				
 WBGene00044734	WBGene00044734		Y19D10A.16	Y19D10A.16	GO:0005975;GO:0006006;GO:0019318;GO:0033499	GO:0003824;GO:0004034;GO:0016853;GO:0030246		5.1.3.3		
