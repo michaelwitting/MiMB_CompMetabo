@@ -67,15 +67,15 @@ def integrate_metabolomics(model,group):
     # arbitrary threshold
     threshold = 2.5
 
-    # If there are changed metabolites, add a demand reaction for them.
+    # If there are changed metabolites, add a sink reaction for them.
     if (len(up_mets_codes)>0):
         up_mets_react = addMetabolomicsReaction(model,up_mets_codes, "up_metabolites")
         model.metabolites.up_metabolites_c.compartment = 'c'
-        model.add_boundary(model.metabolites.up_metabolites_c, type='demand',ub=threshold)
+        model.add_boundary(model.metabolites.up_metabolites_c, type='sink',lb=0,ub=threshold)
     if (len(down_mets_codes)>0):
         down_mets_react = addMetabolomicsReaction(model,down_mets_codes, "down_metabolites")
         model.metabolites.down_metabolites_c.compartment = 'c'
-        model.add_boundary(model.metabolites.down_metabolites_c, type='demand',ub=threshold)
+        model.add_boundary(model.metabolites.down_metabolites_c, type='sink',lb=-1*threshold,ub=0)
 
     # Add the demand reactions to the model objective
     if (len(up_mets_codes)>0 and len(down_mets_codes)>0):
