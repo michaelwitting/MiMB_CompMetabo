@@ -42,6 +42,7 @@ with open(metabolite_file,'r') as file:
 def addMetabolomicsReaction(model, metabolites, react_name, coefficient_str=1):
    print(react_name,":",metabolites)
    # Build a reaction
+   coefficient_str=str(coefficient_str)
    reaction_str = coefficient_str + (" + "+coefficient_str).join(metabolites) + " <==> " + react_name+"_c"
    reaction = Reaction(react_name)
    reaction.name = react_name
@@ -63,7 +64,6 @@ def integrate_metabolomics(model,group):
     up_mets_codes = [mapping_data[i] for i in up_mets_codes if i in mapping_data and mapping_data[i] != ""]
     down_mets_codes = [metabolites[i] for i in range(len(metabolites)) if metabo_diff_values[i] == "DOWN"]
     down_mets_codes = [mapping_data[i] for i in down_mets_codes if i in mapping_data and mapping_data[i] != ""]
-    
     # arbitrary threshold
     threshold = 2.5
 
